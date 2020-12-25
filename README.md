@@ -59,4 +59,4 @@ Note:
 
 ### **Conclusion**
 
-    In conclusion, when 'joining' multiple collections, the aggregation method ($lookup) only outperforms .populate() method with the limit range from 1-7 document(s) selected. But with higher number of conferences selected, the .populate() method apparently is the winner. So it depends on your database design, criteria, scaling plan and so forth, choose the approriate method.
+In conclusion, when 'joining' multiple collections, the aggregation method ($lookup) only outperforms .populate() method with the limit range from 1-7 document(s) selected. But with higher number of conferences selected, the .populate() method apparently is the winner. So it depends on your database design, criteria, scaling plan and so forth, choose the approriate method.
